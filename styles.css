@@ -8,10 +8,13 @@
 }
 
 main {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr) !important;
+    display: flex;
+    justify-content: space-between;
     color: white;
 }
+
+
+
 
 main>section {
     border-right: 1px dotted rgba(175, 169, 169, 0.411);
@@ -42,9 +45,9 @@ section {
 
 .personal_details,
 .day_time {
-    display: flex;
-    flex-direction: column;
-    gap: 35px;
+    flex: 1;
+    padding: 20px;
+    border-right: 1px dotted rgba(175, 169, 169, 0.411);
 
 }
 
