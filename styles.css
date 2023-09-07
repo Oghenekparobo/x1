@@ -81,13 +81,21 @@ section {
 }
 
 [data-testid="githubURL"] {
-    background-color: white;
-    color: black;
-    width: 150px;
+    background-color: goldenrod;
+    color: white;
+    width: 250px;
     padding: 8px;
     border-radius: 4px;
     letter-spacing: 6px;
     margin: 15px 20px;
-    font-size: 26px;
+    text-decoration: none;
+    text-align: center;
     text-transform: capitalize;
+    transition: background-color 2s
+}
+
+
+[data-testid="githubURL"]:hover {
+    background-color: white;
+    color: black;
 }
