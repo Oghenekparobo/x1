@@ -80,7 +80,7 @@ section {
     text-transform: capitalize;
 }
 
-[data-testid="myTrack"] {
+[data-testid="githubURL"] {
     background-color: white;
     color: black;
     width: 150px;
