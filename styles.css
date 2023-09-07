@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+
+
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+
+main>section {
+    border-right: 1px dotted rgba(175, 169, 169, 0.411);
+    height: 100%;
+}
+
+section {
+    padding: 80px;
+}
+
+[data-testid="slackUserName"] {
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    font-size: 28px;
+    letter-spacing: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+[data-testid="slackDisplayImage"] {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.personal_details,
+.day_time {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+}
+
+
+[data-testid="currentDayOfTheWeek"] {
+    background-color: goldenrod;
+    color: white;
+    width: 150px;
+    padding: 8px;
+    border-radius: 4px;
+    letter-spacing: 6px;
+}
+
+[data-testid="currentUTCTime"] {
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: 8px;
+    border-radius: 4px;
+    letter-spacing: 6px;
+}
+
+
+[data-testid="myTrack"] {
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: 8px;
+    border-radius: 4px;
+    letter-spacing: 6px;
+    margin: 15px 20px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+[data-testid="myTrack"] {
+    background-color: white;
+    color: black;
+    width: 150px;
+    padding: 8px;
+    border-radius: 4px;
+    letter-spacing: 6px;
+    margin: 15px 20px;
+    font-size: 26px;
+    text-transform: capitalize;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HNGx Stage One</title>
+  </head>
+  <body>
+    <main>
+      <section class="personal_details">
+        <div><h1 data-testid="slackUserName">pablo</h1></div>
+        <div>
+          <img
+            data-testid="slackDisplayImage"
+            src="slack-profile-pic.jpg"
+            alt="pablo"
+          />
+        </div>
+        <div><span data-testid="myTrack">Frontend</span></div>
+      </section>
+
+      <section class="day_time">
+        <p data-testid="currentDayOfTheWeek"></p>
+        <p data-testid="currentUTCTime"></p>
+        <a href="#" data-testid="“githubURL”">source code</a>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
